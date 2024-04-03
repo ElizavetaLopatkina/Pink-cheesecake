@@ -1,0 +1,40 @@
+.nav-item {
+  margin: 0 84px;
+  align-self: center;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-weight: 300;
+  font-size: 1em;
+  align-self: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar-toggler {
+    margin-right: 15px !important;
+  }
+
+  .custom-brand {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 28px;
+  align-self: center;
+}

@@ -1,0 +1,30 @@
+.popular {
+  margin-top: 50px;
+}
+
+.popular-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+
+.col {
+  padding-right: 12px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 992px) {
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+}
